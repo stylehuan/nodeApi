@@ -1,0 +1,37 @@
+#定时器函数
+
+---
+
+## setTimeout(cb, ms, [arg...])
+
+Node.js中定义的setTimeout全局函数的作用与客户端JavaScript脚本代码中的setTimeout函数的作用类似,有两点不同之处.
+
+- node中的setTimeout返回的是一个`timer`对象，而客户端则返回的是一个数值ID
+
+- node中的setTimeout的参数可以有多个，而客户端则只有两个
+
+
+## clearTimeout(timer)
+
+clearTimeout函数使用一个参数，参数值为setTimeout函数所返回的定时器对象
+
+
+
+## setInterval(cb, ms, [arg...])
+
+同`browsers`中一样，不多介绍。
+
+## clearInterval(timer)
+
+同上
+
+
+
+`setTimeout`和`setInterval`定时器函数均返回一个`timer`对象。
+
+
+
+
+
+
+
